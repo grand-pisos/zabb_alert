@@ -8,7 +8,7 @@ print('zabix_alert_v0.02' + '\n')
 #исключения по триггерам
 black_list = [
     'workly_device_status',
-    'Disk I/O is overloaded on uatdb.av.ru',
+    'Disk I/O is overloaded on',
     'AZV-> Service Level less than 60%',
     'AV.RU-> Отслеживание сервиса привязки телефона, количество ошибок',
     'Статус регистраторов Workly'
