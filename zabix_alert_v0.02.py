@@ -19,7 +19,7 @@ bot_token = os.getenv('b_token')
 bot_chatID = os.getenv('b_chatID')
 send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text='
 
-ZABBIX_API_URL  = 'https://zabbix.av.ru/zabbix/' + 'api_jsonrpc.php'
+ZABBIX_API_URL  = os.getenv('z_url') + 'api_jsonrpc.php'
 
 def bot_message(text):
     tget = send_text + str(text)
